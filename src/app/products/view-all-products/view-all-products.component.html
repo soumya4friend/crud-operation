@@ -1,0 +1,24 @@
+<div class="container px-4 px-lg-5 ">
+  <div class="row  justify-content-center">
+      <div class="col-lg-4 col-md-6 mb-4" *ngFor="let product of productList">
+          <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="{{product.productImg}}" alt="..." />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                  <h4 class="card-title">
+                      <!-- Product name-->
+                      <a routerLink="product/{{product.id}}">{{product.productName}}</a>
+                      <p>{{product.description}}</p>
+                      <!-- Product price-->
+                      ${{product.price}}
+                  </h4>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer">
+                  <div class="text-muted">{{product.rating}} Stars</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

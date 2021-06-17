@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "categoryId": 2,
+      "productName": "Soccer Tshirts",
+      "description": "all description",
+      "rating": "1",
+      "price": "100",
+      "productImg": "",
+      "isAvailable": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "productName": "Casual Tshirts",
+      "categoryId": 3,
+      "description": "all description",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/img3.jpg",
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 20,
+      "vendor_name": "seller - 1",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "productName": "Tshirts",
+      "categoryId": 3,
+      "description": "all description",
+      "price": 100,
+      "productImg": "http://localhost:4200/assets/img4.jpg",
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller - 1",
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "productName": "Round neck Tshirts",
+      "categoryId": 2,
+      "description": "all description",
+      "price": 100,
+      "productImg": "http://localhost:4200/assets/img5.jpg",
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller - 1",
+      "warranty": 2
+    },
+    {
+      "id": 6,
+      "productName": "Golf Tshirts",
+      "categoryId": 1,
+      "description": "all description",
+      "price": 500,
+      "productImg": "http://localhost:4200/assets/img6.jpg",
+      "isAvailable": true,
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "seller - 1",
+      "warranty": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Polo Tshirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Soccer Tshirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Casual Tshirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Tshirts"
+    },
+    {
+      "id": 5,
+      "categoryName": "Shoes"
+    },
+    {
+      "id": 6,
+      "categoryName": "Jeans"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

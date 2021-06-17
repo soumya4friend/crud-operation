@@ -1,0 +1,9 @@
+<a class="list-group-item" style="background-color:rgb(0, 255, 242)" href="products">
+  View all products
+</a>
+<a href="products/create-product" class="list-group-item" style="background-color:#ddd">
+  Add New Product
+</a>
+<div class="list-group" *ngFor="let cat of categoryList">
+  <a class="list-group-item" href="products/category/{{cat.id}}">{{cat.categoryName}}</a>
+</div>
